@@ -203,7 +203,16 @@
     height: 27px;
   }
   .photos {
+    flex-direction: column;
     margin-top: 10px;
+  }
+  .photos__img {
+    width: 100%;
+  }
+  .choose__subtitle {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .photos__zoom {
     left: 40%;

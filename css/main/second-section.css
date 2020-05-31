@@ -210,4 +210,7 @@
   .second-section .description-block {
     padding: 5px 10px;
   }
+  .console-buttons__link {
+    text-align: center;
+  }
 }
