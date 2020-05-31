@@ -1,0 +1,40 @@
+.footer {
+  height: 60px;
+  background-color: #00163f;
+}
+.footer__nav-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.footer__nav {
+  height: 100%;
+}
+.footer__nav .nav__item {
+  margin-top: 0;
+}
+.footer__nav .nav__item:hover {
+  margin-top: 0;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    height: 60px;
+  }
+  .footer__nav-block {
+    height: 70%;
+  }
+  .footer__years {
+    font-size: 14px;
+    height: 30%;
+  }
+  .footer__nav .nav__item {
+    margin-top: 0;
+  }
+  .footer__nav .nav__item:hover {
+    margin-top: 0;
+    border: none;
+  }
+}
